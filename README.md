@@ -1,7 +1,7 @@
 # Error
 This Solidity smart contract named Error demonstrates the usage of three different types of error-handling mechanism in Solidty which are require(), revert(), and assert() statements.
 # Descriptions
-The contract has three differnt function, the first function uses the require() statements to validate the input _i - it checks whether _i is less than 100. The second function uses the revert() statements to revert state changes if a certain condition is not met. The third function is assert() statements that check for internal errors. It asserts the state variable 'num' must be 0. If 'num' is not 0 the assert statement will fail, and the transaction will be reverted, consuming all the gas.
+The contract has three different functions; the first function uses the require() statements to validate the input _i - it checks whether _i is less than 100. The second function uses the revert() statements to revert state changes if a specific condition is unmet. The third function is assert() accounts that check for internal errors. It asserts the state variable 'num' must be 0. If 'num' is not 0, the assert statement will fail, and the transaction will be reverted, consuming all the gas.
 # Getting Started
 #Executing Program
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
