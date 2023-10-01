@@ -11,21 +11,16 @@ pragma solidity ^0.8.17;
 
 contract Error {
     uint256 public num;
-
-  
     function checkRequire(uint256 _i) public {
         require(_i < 100, "Value must be less than 100");
         num = _i;
     }
-
- 
     function checkRevert(uint256 _i) public {
         if (_i <= 10) {
             revert("Input must be greater than 10");
         }
         num = _i;
     }
-
     function checkAssert() public view {
         assert(num == 0);
     }
